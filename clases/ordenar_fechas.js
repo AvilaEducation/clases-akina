@@ -24,3 +24,14 @@ const cards = [
   console.log(cards
     .toSorted((cardA, cardB) => cardToTime(cardA) - cardToTime(cardB))
   .map(card => card.date.substring(0, 4)))
+
+  // TODO: ejercicio de ordenamientos
+
+
+
+
+  const articulos = []
+
+  articulos[0] // banner
+  articulos.slice(1, articulos.length - 1) // resto
+  articulos[articulos.length - 1]// ad1
