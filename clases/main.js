@@ -37,6 +37,7 @@ if(dinero_billetera > precio_producto){
     console.log("dinero insuficiente")
 }
 
+console.log("main")
 // bucles
 
 // bucle controlado
